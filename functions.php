@@ -252,11 +252,16 @@ if ( ! function_exists( 'twentysixteenex_fonts_url' ) ) :
 function twentysixteenex_fonts_url() {
 	$fonts_url = '';
 	$fonts     = array();
-	$subsets   = 'latin,latin-ext';
+	$subsets   = 'latin,latin-ext,cyrillic-ext,cyrillic';
 
 	/* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
 	if ( 'off' !== _x( 'on', 'Merriweather font: on or off', 'twentysixteenex' ) ) {
 		$fonts[] = 'Merriweather:400,700,900,400italic,700italic,900italic';
+	}
+
+	/* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
+	if ( 'off' !== _x( 'on', 'Roboto font: on or off', 'twentysixteenex' ) ) {
+		$fonts[] = 'Roboto:400,500,400italic,500italic';
 	}
 
 	/* translators: If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language. */
