@@ -19,7 +19,7 @@
 
 	<?php twentysixteenex_excerpt(); ?>
 
-	<?php twentysixteenex_post_thumbnail(); ?>
+	<?php //twentysixteenex_post_thumbnail(); ?>
 
 	<div class="entry-content" itemprop="text">
 		<?php

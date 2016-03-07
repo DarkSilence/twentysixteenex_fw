@@ -509,11 +509,13 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/customizer.php';
 
 // RELEASE ONLY
+/*
 remove_action( 'wp_enqueue_scripts', 'twentysixteenex_color_scheme_css' );
 remove_action( 'wp_enqueue_scripts', 'twentysixteenex_link_color_css', 11 );
 remove_action( 'wp_enqueue_scripts', 'twentysixteenex_buttons_color_css', 11 );
 remove_action( 'wp_enqueue_scripts', 'twentysixteenex_main_text_color_css', 11 );
 remove_action( 'wp_enqueue_scripts', 'twentysixteenex_secondary_text_color_css', 11 );
+*/
 
 /**
  * Filter to make dates gramatically correct in RU locale.

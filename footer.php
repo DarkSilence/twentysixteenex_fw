@@ -42,7 +42,7 @@
 		<div class="site-footer-container">
 			<div class="site-footer-main">
 				<div class="site-info">
-					&copy;&nbsp;Ольга Салий, 2008-<?=date('Y')?>, сайт установил <a href="http://paulov.ru/" title="Роман Паулов">Роман Паулов</a>.
+					&copy;&nbsp;РћР»СЊРіР° РЎР°Р»РёР№, 2008-<?=date('Y')?>, СЃР°Р№С‚ СѓСЃС‚Р°РЅРѕРІРёР» <a href="http://paulov.ru/" title="Р РѕРјР°РЅ РџР°СѓР»РѕРІ">Р РѕРјР°РЅ РџР°СѓР»РѕРІ</a>.
 				</div><!-- .site-info -->
 			</div><!-- .site-footer-main -->
 		</div><!-- .site-footer-container -->

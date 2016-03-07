@@ -31,7 +31,7 @@ get_header(); ?>
 
 							if ( is_author() ) {
 
-								get_template_part( 'template-parts/biography-full' );
+								//get_template_part( 'template-parts/biography-full' );
 
 							} else {
 

@@ -13,7 +13,7 @@
 		<?php the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php twentysixteenex_post_thumbnail(); ?>
+	<?php //twentysixteenex_post_thumbnail(); ?>
 
 	<div class="entry-content" itemprop="text">
 		<?php

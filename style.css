@@ -52,6 +52,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  *    14.6 - >= 1600px
  *    14.7 - >= 1920px
  * 15.0 - Print
+ * 16.0 - Third Parties
  */
 
 
@@ -5251,4 +5252,14 @@ p > video {
 	.widecolumn {
 		padding: 0;
 	}
+}
+
+/**
+ * Third Parties
+ */
+
+ul.related_post li {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
 }

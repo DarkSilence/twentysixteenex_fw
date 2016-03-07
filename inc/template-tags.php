@@ -359,10 +359,10 @@ function twentysixteenex_entry_meta() {
 			get_the_author()
 		);
 	}
-
-	if ( in_array( get_post_type(), array( 'post', 'question', 'attachment' ) ) ) {
-		twentysixteenex_entry_date();
-	}
+	
+//	if ( in_array( get_post_type(), array( 'post', 'question', 'attachment' ) ) ) {
+//		twentysixteenex_entry_date();
+//	}
 
 	$format = get_post_format();
 	if ( current_theme_supports( 'post-formats', $format ) ) {
@@ -407,6 +407,11 @@ function twentysixteenex_entry_meta() {
 			echo '</span>';
 		}		
 	}
+
+	echo '<span class="comments-link">';
+	if ( function_exists('the_views') ) the_views();
+	echo '</span>';
+
 }
 endif;
 
