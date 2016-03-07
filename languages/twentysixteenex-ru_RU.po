@@ -1,0 +1,488 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Sixteen Ex\n"
+"POT-Creation-Date: 2016-01-17 00:49+0600\n"
+"PO-Revision-Date: 2016-03-03 16:23+0600\n"
+"Last-Translator: Roman Paulov <romanpaulov@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+
+#: archive-question.php:59 archive.php:62 index.php:49 search.php:40
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: archive-question.php:60 archive.php:63 index.php:50 search.php:41
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: archive-question.php:61 archive.php:64 image.php:62 index.php:51
+#: search.php:42 template-parts/content-page.php:28
+#: template-parts/content-single.php:30 template-parts/content.php:37
+msgid "Page"
+msgstr "Страница"
+
+#: comments.php:48
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "1 комментарий"
+
+#: comments.php:53
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий"
+msgstr[1] "%1$s комментария"
+msgstr[2] "%1$s комментариев"
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#: edit-answer.php:27
+#, php-format
+msgid "Answer for %s"
+msgstr "Ответ на %s"
+
+#: footer.php:16
+msgid "Footer Primary Menu"
+msgstr "Основное меню подвала"
+
+#: functions.php:82 header.php:124
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:83
+msgid "Social Links Menu"
+msgstr "Меню социальных ссылок"
+
+#: functions.php:211
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:213
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Добавьте сюда виджеты, которые вы хотите разместить в боковой колонке."
+
+#: functions.php:221
+msgid "Content Bottom 1"
+msgstr "Под содержимым 1"
+
+#: functions.php:223 functions.php:233
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "Отображается под содержимым на страницах и записях."
+
+#: functions.php:231
+msgid "Content Bottom 2"
+msgstr "Под содержимым 2"
+
+#: functions.php:258
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:263
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:268
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:343
+msgid "expand child menu"
+msgstr "раскрыть дочернее меню"
+
+#: functions.php:344
+msgid "collapse child menu"
+msgstr "свернуть дочернее меню"
+
+#: functions.php:467
+msgid "Comment is too short. Please use at least 3 characters."
+msgstr ""
+"Комментарий слишком короткий. Пожалуйста, используйте не менее 3 символов в "
+"своем комментарии."
+
+#: image.php:27
+msgid "Illustration &laquo;"
+msgstr "Иллюстрация к статье &laquo;"
+
+#: image.php:27 inc/template-tags.php:372
+msgctxt "Tail for enclosures like - All posts of type &laquo;...&raquo;"
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: image.php:58 template-parts/content-page.php:24
+#: template-parts/content-single.php:26 template-parts/content.php:33
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: image.php:75
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Полный размер"
+
+#: image.php:77
+msgid "Source Image - "
+msgstr "Оригинал изображения - "
+
+#: image.php:87 template-parts/content-answer.php:33
+#: template-parts/content-page.php:41 template-parts/content-question.php:22
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:45 template-parts/content.php:49
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Изменить<span class=\"screen-reader-text\"> «%s»</span>"
+
+#: image.php:100
+msgid "Previous Image"
+msgstr "Предыдущее изображение"
+
+#: image.php:101
+msgid "Next Image"
+msgstr "Следующее изображение"
+
+#: image.php:113 single.php:32
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">"
+"%title</span>"
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+#, php-format
+msgid ""
+"Twenty Sixteen Ex requires at least WordPress version 4.4. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+"Тема Twenty Sixteen Ex требует WordPress версии 4.4 или выше. У вас версия "
+"%s. Пожалуйста, обновите WordPress и попробуйте ещё раз."
+
+#: inc/customizer.php:117
+msgid "Base Color Scheme"
+msgstr "Основная цветовая схема"
+
+#: inc/customizer.php:135
+msgid "Link Color"
+msgstr "Цвет ссылок"
+
+#: inc/customizer.php:147
+msgid "Main Text Color"
+msgstr "Основной цвет текста"
+
+#: inc/customizer.php:159
+msgid "Secondary Text Color"
+msgstr "Цвет второстепенного текста"
+
+#: inc/customizer.php:171
+msgid "Buttons Background Color"
+msgstr "Цвет кнопок"
+
+#: inc/customizer.php:183
+msgid "Buttons Text Color"
+msgstr "Цвет текста на кнопках"
+
+#: inc/customizer.php:195
+msgid "Active Buttons Background Color"
+msgstr "Цвет активной кнопки"
+
+#: inc/customizer.php:207
+msgid "Active Buttons Text Color"
+msgstr "Цвет текста на активной кнопке"
+
+#: inc/customizer.php:219
+msgid "Disabled Buttons Background Color"
+msgstr "Цвет неактивных кнопок"
+
+#: inc/customizer.php:231
+msgid "Disabled Buttons Text Color"
+msgstr "Цвет текста на неактивных кнопках"
+
+#: inc/customizer.php:237
+msgid "Footer"
+msgstr "Изображение подвала"
+
+#: inc/customizer.php:246
+msgid "Footer Image"
+msgstr "Изображение подвала"
+
+#: inc/customizer.php:253 inc/customizer.php:262
+msgid "Logo Image"
+msgstr "Логотип"
+
+#: inc/customizer.php:269
+msgid "Delemiters"
+msgstr "Разделители"
+
+#: inc/customizer.php:278
+msgid "Delemiter Small"
+msgstr "Малый разделитель"
+
+#: inc/customizer.php:288
+msgid "Delemiter Large"
+msgstr "Большой разделитель"
+
+#: inc/customizer.php:295
+msgid "Text Constants"
+msgstr "Текстовый константы"
+
+#: inc/customizer.php:304
+msgid "VK App ID"
+msgstr "Идентификатор приложения VKontakte (для кнопки Like)"
+
+#: inc/customizer.php:314
+msgid "Facebook App ID"
+msgstr "Идентификатор приложения Facebook (для кнопки Like)"
+
+#: inc/customizer.php:322
+msgid "Google Analytics Tracking Code"
+msgstr "Код отслеживания Google Analytics"
+
+#: inc/customizer.php:330
+msgid "Yandex.Metrica Tracking Code"
+msgstr "Код отслеживания Яндекс Метрики"
+
+#: inc/customizer.php:337
+msgid "Custom URL for Admin's Profile"
+msgstr "Публичная страница владельца"
+
+#: inc/customizer.php:346
+msgid "For user with ID"
+msgstr "Для пользователя с ID"
+
+#: inc/customizer.php:354
+msgid "replace author's page URL with (e.g. /contacts, /about)"
+msgstr ""
+"заменить страничку автора на (можно ввести что-то вроде: /contacts/, /about/)"
+
+#: inc/customizer.php:361
+msgid "Scheme.org"
+msgstr "Scheme.org"
+
+#: inc/customizer.php:368
+msgid "Short WebSite name"
+msgstr "Краткое название сайта (пр. Google, Wikipedia, Meduza)"
+
+#: inc/customizer.php:379
+msgid "Logo 600×60"
+msgstr "Логотип 600×60"
+
+#: inc/customizer.php:427
+msgid "Default"
+msgstr "По умолчанию"
+
+#: inc/customizer.php:443
+msgid "paulov.ru"
+msgstr "paulov.ru"
+
+#: inc/customizer.php:459
+msgid "free-writer.ru"
+msgstr "free-writer.ru"
+
+#: inc/customizer.php:475
+msgid "Dark"
+msgstr "Тёмный"
+
+#: inc/customizer.php:491
+msgid "Gray"
+msgstr "Серый"
+
+#: inc/customizer.php:507
+msgid "Red"
+msgstr "Красный"
+
+#: inc/customizer.php:523
+msgid "Yellow"
+msgstr "Жёлтый"
+
+#: inc/template-tags.php:60
+msgid "answer"
+msgid_plural "answers"
+msgstr[0] "ответ"
+msgstr[1] "ответа"
+msgstr[2] "ответов"
+
+#: inc/template-tags.php:356
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор"
+
+#: inc/template-tags.php:370
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
+
+#: inc/template-tags.php:372
+msgid "All posts of type &laquo;"
+msgstr "Все статьи &laquo;"
+
+#: inc/template-tags.php:406
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Добавить комментарий<span class=\"screen-reader-text\"> к записи %s</span>"
+
+#: inc/template-tags.php:436
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Опубликовано"
+
+#: inc/template-tags.php:453 inc/template-tags.php:461
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:456
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Рубрики"
+
+#: inc/template-tags.php:464
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Метки"
+
+#: inc/template-tags.php:543 template-parts/content.php:28
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее<span class=\"screen-reader-text\"> «%s»</span>"
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: searchform.php:13 searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr "Искать:"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск&hellip;"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "Найти"
+
+#: sidebar.php:15
+msgid "Footer Social Links Menu"
+msgstr "Меню социальных ссылок"
+
+#: single-question.php:34
+msgid "Category:"
+msgstr "Категория:"
+
+#: single-question.php:35
+msgid "Tags:"
+msgstr "Метки:"
+
+#: single-question.php:56
+msgid "Your Answer"
+msgstr "Ваш ответ"
+
+#: single.php:37
+msgid "Next"
+msgstr "Далее"
+
+#: single.php:38
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: single.php:40
+msgid "Previous"
+msgstr "Назад"
+
+#: single.php:41
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: template-parts/biography-full.php:13 template-parts/biography.php:28
+msgid "Author:"
+msgstr "Автор:"
+
+#: template-parts/biography.php:32 template-parts/biography.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr "Посмотреть все записи автора %s"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
+"слова."
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по "
+"сайту."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "Избранные"
+
+#: user-question.php:29
+msgid "Name"
+msgstr "Имя"
+
+#: user-question.php:33
+msgid "Member for"
+msgstr "Участвует"
+
+#: user-question.php:58
+msgid "Question"
+msgid_plural "Questions"
+msgstr[0] "Вопрос"
+msgstr[1] "Вопроса"
+msgstr[2] "Вопросов"
+
+#: user-question.php:63
+msgid "Answer"
+msgid_plural "Answers"
+msgstr[0] "Ответ"
+msgstr[1] "Ответа"
+msgstr[2] "Ответов"

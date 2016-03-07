@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Sixteen Ex\n"
+"POT-Creation-Date: 2016-01-06 23:37+0600\n"
+"PO-Revision-Date: 2016-01-06 23:38+0600\n"
+"Last-Translator: Roman Paulov <romanpaulov@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:52 index.php:49 search.php:40
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:53 index.php:50 search.php:41
+msgid "Next page"
+msgstr ""
+
+#: archive.php:54 image.php:63 index.php:51 search.php:42
+#: template-parts/content-page.php:27 template-parts/content-single.php:29
+#: template-parts/content.php:37
+msgid "Page"
+msgstr ""
+
+#: comments.php:48
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:53
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:16
+msgid "Footer Primary Menu"
+msgstr ""
+
+#: functions.php:82 header.php:150
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:83
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:205
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:207
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:215
+msgid "Content Bottom 1"
+msgstr ""
+
+#: functions.php:217 functions.php:227
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr ""
+
+#: functions.php:225
+msgid "Content Bottom 2"
+msgstr ""
+
+#: functions.php:252
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:257
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:262
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:338
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:339
+msgid "collapse child menu"
+msgstr ""
+
+#: image.php:27
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:28
+msgid "Next Image"
+msgstr ""
+
+#: image.php:59 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr ""
+
+#: image.php:76
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: image.php:87 template-parts/content-page.php:55
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:63 template-parts/content.php:49
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: image.php:105 single.php:32
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+#, php-format
+msgid ""
+"Twenty Sixteen Ex requires at least WordPress version 4.4. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Base Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Main Text Color"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Secondary Text Color"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Buttons Background Color"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Buttons Text Color"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Active Buttons Background Color"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Active Buttons Text Color"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "Disabled Buttons Background Color"
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Disabled Buttons Text Color"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Footer Image"
+msgstr ""
+
+#: inc/customizer.php:253 inc/customizer.php:262
+msgid "Logo Image"
+msgstr ""
+
+#: inc/customizer.php:269
+msgid "Delemiters"
+msgstr ""
+
+#: inc/customizer.php:278
+msgid "Delemiter Small"
+msgstr ""
+
+#: inc/customizer.php:288
+msgid "Delemiter Large"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "Text Constants"
+msgstr ""
+
+#: inc/customizer.php:304
+msgid "VK App ID"
+msgstr ""
+
+#: inc/customizer.php:314
+msgid "Facebook App ID"
+msgstr ""
+
+#: inc/customizer.php:322
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: inc/customizer.php:330
+msgid "Yandex.Metrica Tracking Code"
+msgstr ""
+
+#: inc/customizer.php:377
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:393
+msgid "paulov.ru"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "free-writer.ru"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer.php:441
+msgid "Gray"
+msgstr ""
+
+#: inc/customizer.php:457
+msgid "Red"
+msgstr ""
+
+#: inc/customizer.php:473
+msgid "Yellow"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:38
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: inc/template-tags.php:50
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:98
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:106
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:184 template-parts/content.php:28
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:13 searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:15
+msgid "Footer Social Links Menu"
+msgstr ""
+
+#: single.php:37
+msgid "Next"
+msgstr ""
+
+#: single.php:38
+msgid "Next post:"
+msgstr ""
+
+#: single.php:40
+msgid "Previous"
+msgstr ""
+
+#: single.php:41
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr ""
+
+#: template-parts/biography.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr ""

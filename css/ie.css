@@ -1,0 +1,71 @@
+/*
+Theme Name: Twenty Sixteen Ex
+Description: Global Styles for older IE versions (previous to IE10).
+*/
+
+.site-header-main:before,
+.site-header-main:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+}
+
+.site-header-main:after,
+.site-footer:after {
+	clear: both;
+}
+
+.site-header-form {
+	width: auto;
+}
+
+.lines-button.x.toggled-on .lines:before {
+	-ms-transform: rotate(45deg);
+}
+.lines-button.x.toggled-on .lines:after {
+	-ms-transform: rotate(-45deg);
+}
+.lines-button.x2.toggled-on .lines:before {
+	-ms-transform: rotate(45deg);
+}
+.lines-button.x2.toggled-on .lines:after {
+	-ms-transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 56.875em) {
+	.site-branding,
+	.site-info {
+		float: left;
+	}
+
+	.site-header-form {
+		width: 35em;
+	}
+
+	.site-header-menu,
+	.site-header-form,
+	.site-footer .social-navigation {
+		float: right;
+	}
+
+	.site-footer .social-navigation {
+		margin-left: 7px;
+	}
+
+	.rtl .site-branding,
+	.rtl .site-info {
+		float: right;
+	}
+
+	.rtl .site-header-menu,
+	.rtl .site-header-form,
+	.rtl .site-footer .social-navigation {
+		float: left;
+	}
+
+	.rtl .site-footer .social-navigation {
+		margin-right: 7px;
+		margin-left: 0;
+	}
+}
